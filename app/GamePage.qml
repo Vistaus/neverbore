@@ -55,24 +55,8 @@ Page {
         }
     }
 
-    Image {
-        anchors.fill: parent
-        source: Qt.resolvedUrl("graphics/paper.png")
-        fillMode: Image.Tile
-    }
 
-    SoundEffect {
-        id: success
-        muted: mainView.muted
-        source: Qt.resolvedUrl("sound/positive.wav")
-        volume: 0.5
-    }
-    SoundEffect {
-        id: failure
-        muted: mainView.muted
-        source: Qt.resolvedUrl("sound/negative.wav")
-        volume: 0.5
-    }
+
 
     GameBoard {
         id: board
@@ -142,7 +126,7 @@ Page {
              text: i18n.tr("Would you like to keep or discard your temporary guesses?")
              Button {
                  text: i18n.tr("Keep guesses")
-                 color: UbuntuColors.green
+                 color: Theme.palette.normal.positive
                  onClicked: {
                      level.exitGhostMode(true);
                      PopupUtils.close(dialog);
@@ -150,7 +134,7 @@ Page {
              }
              Button {
                  text: i18n.tr("Discard guesses")
-                 color: UbuntuColors.red
+                 color: Theme.palette.normal.negative
                  onClicked: {
                      level.exitGhostMode(false);
                      PopupUtils.close(dialog);

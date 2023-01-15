@@ -8,7 +8,7 @@ Rectangle {
     property int n
     readonly property alias guess: d.guess
     readonly property alias isRealGuess: d.isRealGuess
-    color: "transparent"
+    color: Theme.palette.normal.text
 
     QtObject {
         id: d

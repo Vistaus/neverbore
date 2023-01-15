@@ -8,11 +8,6 @@ Page {
     ]
     property bool playMusic: true
 
-    Image {
-        anchors.fill: parent
-        source: Qt.resolvedUrl("graphics/paper.png")
-        fillMode: Image.Tile
-    }
 
     Flickable {
         anchors.fill: parent
@@ -21,7 +16,7 @@ Page {
 
         Rectangle {
             id: border
-            color: "white"
+           color: Theme.palette.normal.background
             width: parent.width
             height: childrenRect.height
 

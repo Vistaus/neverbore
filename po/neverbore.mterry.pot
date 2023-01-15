@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the  package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-07 12:50+0000\n"
+"POT-Creation-Date: 2023-01-15 12:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,54 +17,54 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../app/CreditsPage.qml:5 ../app/FrontPage.qml:64
+#: ../app/CreditsPage.qml:5 ../app/FrontPage.qml:60
 msgid "Credits"
 msgstr ""
 
-#: ../app/CreditsPage.qml:21
+#: ../app/CreditsPage.qml:16
 #, qt-format
 msgid "Programming by %1"
 msgstr ""
 
-#: ../app/CreditsPage.qml:22
+#: ../app/CreditsPage.qml:17
 #, qt-format
 msgid "Now maintained by %1"
 msgstr ""
 
-#: ../app/CreditsPage.qml:23
+#: ../app/CreditsPage.qml:18
 #, qt-format
 msgid "Music by %1"
 msgstr ""
 
-#: ../app/CreditsPage.qml:24
+#: ../app/CreditsPage.qml:19
 #, qt-format
 msgid "Art by %1"
 msgstr ""
 
-#: ../app/CreditsPage.qml:25
+#: ../app/CreditsPage.qml:20
 #, qt-format
 msgid "Testing by %1"
 msgstr ""
 
-#: ../app/CreditsPage.qml:26
+#: ../app/CreditsPage.qml:21
 #, qt-format
 msgid "Puzzles by %1"
 msgstr ""
 
-#: ../app/FrontPage.qml:37
+#: ../app/FrontPage.qml:33
 #, qt-format
 msgid "Continue <i>%1</i>"
 msgstr ""
 
-#: ../app/FrontPage.qml:37
+#: ../app/FrontPage.qml:33
 msgid "Continue current puzzle"
 msgstr ""
 
-#: ../app/FrontPage.qml:52
+#: ../app/FrontPage.qml:48
 msgid "All puzzles"
 msgstr ""
 
-#: ../app/FrontPage.qml:58 ../app/HowToPage.qml:5
+#: ../app/FrontPage.qml:54 ../app/HowToPage.qml:5
 msgid "How to Play"
 msgstr ""
 
@@ -76,51 +76,51 @@ msgstr ""
 msgid "Ghost Mode"
 msgstr ""
 
-#: ../app/GamePage.qml:113
+#: ../app/GamePage.qml:97
 msgid "Next puzzle"
 msgstr ""
 
-#: ../app/GamePage.qml:128
+#: ../app/GamePage.qml:112
 msgid "Entering ghost mode"
 msgstr ""
 
-#: ../app/GamePage.qml:129
+#: ../app/GamePage.qml:113
 msgid ""
 "You are now making temporary guesses that you can choose to either keep or "
 "discard when you are done with ghost mode."
 msgstr ""
 
-#: ../app/GamePage.qml:131
+#: ../app/GamePage.qml:115
 msgid "Got it"
 msgstr ""
 
-#: ../app/GamePage.qml:141
+#: ../app/GamePage.qml:125
 msgid "Leaving ghost mode"
 msgstr ""
 
-#: ../app/GamePage.qml:142
+#: ../app/GamePage.qml:126
 msgid "Would you like to keep or discard your temporary guesses?"
 msgstr ""
 
-#: ../app/GamePage.qml:144
+#: ../app/GamePage.qml:128
 msgid "Keep guesses"
 msgstr ""
 
-#: ../app/GamePage.qml:152
+#: ../app/GamePage.qml:136
 msgid "Discard guesses"
 msgstr ""
 
-#: ../app/GamePage.qml:160
+#: ../app/GamePage.qml:144
 msgid "Stay in ghost mode"
 msgstr ""
 
-#: ../app/HowToPage.qml:39
+#: ../app/HowToPage.qml:34
 msgid ""
 "Picross games are grid logic puzzles where you must determine which of the "
 "grid squares are filled in."
 msgstr ""
 
-#: ../app/HowToPage.qml:46
+#: ../app/HowToPage.qml:41
 msgid ""
 "Each row and column have a set of number hints. Each number indicates a "
 "sequence of filled squares in that row or column. For example, a row with "
@@ -128,7 +128,7 @@ msgid ""
 "squares to its right, separated by one or more empty squares."
 msgstr ""
 
-#: ../app/HowToPage.qml:53
+#: ../app/HowToPage.qml:48
 msgid ""
 "If you want to experiment with what the board would look like <em>if</em> a "
 "square were filled, try clicking the ghost icon at the top of the screen. "
@@ -138,12 +138,4 @@ msgstr ""
 
 #: ../app/PacksPage.qml:9
 msgid "Puzzles"
-msgstr ""
-
-#: ../app/neverbore.qml:29
-msgid "Unmute"
-msgstr ""
-
-#: ../app/neverbore.qml:29
-msgid "Mute"
 msgstr ""

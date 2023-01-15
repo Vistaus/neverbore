@@ -7,7 +7,7 @@ import Neverbore 1.0 as NB
 MainView {
     id: mainView
     objectName: "mainView"
-    applicationName: "neverbore.mterry"
+    applicationName: "neverbore.mateo-salta"
     automaticOrientation: true
     focus: true
 
@@ -26,9 +26,7 @@ MainView {
     }
     Action {
         id: muteAction
-        text: mainView.muted ? i18n.tr("Unmute") : i18n.tr("Mute")
-        iconName: mainView.muted ? "audio-speakers-muted-symbolic" : "audio-speakers-symbolic"
-        onTriggered: mainView.muted = !mainView.muted
+    
     }
 
     Binding {
@@ -37,24 +35,7 @@ MainView {
         value: Qt.resolvedUrl("../levels")
     }
 
-    Audio {
-        source: Qt.resolvedUrl("sound/happy.mp3")
-        loops: MediaPlayer.Infinite
 
-        readonly property bool shouldPlay: pageStack.allowMusic
-                                           && pageStack.currentPage.playMusic
-                                           && !mainView.muted
-                                           && Qt.application.active
-        onShouldPlayChanged: update()
-        Component.onCompleted: update()
-        function update() {
-            if (shouldPlay) {
-                play();
-            } else {
-                pause();
-            }
-        }
-    }
 
     PageStack {
         id: pageStack

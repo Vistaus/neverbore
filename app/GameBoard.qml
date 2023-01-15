@@ -15,7 +15,7 @@ Rectangle {
         property int numVerticalBlocks: level.rows + (level.finished ? 0 : level.columnHintsDepth)
     }
 
-    color: "transparent"
+    color: Theme.palette.normal.background
 
     function blockSizeForSize(width, height) {
         return Math.min(units.gu(6),

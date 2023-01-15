@@ -8,11 +8,6 @@ Page {
     ]
     property bool playMusic: true
 
-    Image {
-        anchors.fill: parent
-        source: Qt.resolvedUrl("graphics/paper.png")
-        fillMode: Image.Tile
-    }
 
     ListView {
         anchors.fill: parent

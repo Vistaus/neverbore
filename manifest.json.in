@@ -1,5 +1,5 @@
 {
-    "name": "neverbore.mterry",
+    "name": "neverbore.mateo-salta",
     "description": "Nonogram puzzle game",
     "architecture": "@CLICK_ARCH@",
     "title": "Neverbore Picross",
@@ -9,7 +9,7 @@
             "desktop": "neverbore.desktop"
         }
     },
-    "version": "4",
+    "version": "5",
     "maintainer": "Michele Castellazzi <miguel2000@livecom.it>",
-    "framework": "ubuntu-sdk-15.04"
+    "framework": "ubuntu-sdk-20.04"
 }
